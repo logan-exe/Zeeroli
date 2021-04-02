@@ -1,0 +1,46 @@
+.hero {
+  max-width: 1440px;
+  margin-left: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -100px;
+  background: black;
+  flex-wrap: wrap;
+}
+/* .hero-wrapper {
+  width: 100%;
+  background: black;
+  height: 100vh;
+} */
+@media (max-width: 960px) {
+  .hero {
+    margin-left: 20px;
+    margin-top: 40px;
+  }
+}
+
+.hero-left,
+.hero-right {
+  animation: 2s ease-out 0s 1 slideInFromLeft;
+}
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* .hero-right {
+  animation: 1s ease-out 0s 1 slideInFromRight;
+}
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+} */

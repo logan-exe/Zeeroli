@@ -1,0 +1,22 @@
+.founded {
+  display: flex;
+  justify-content: space-between;
+  width: 1280px;
+  margin: auto;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+.founded-content > p {
+  margin-top: 40px;
+  width: 400px;
+}
+.founded-wrapper {
+  /* background: black; */
+}
+.founded-image {
+  /* background: url("../../assets//img/cylinder.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 600px;
+  height: 900px; */
+}
