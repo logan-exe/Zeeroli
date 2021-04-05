@@ -1,10 +1,11 @@
 .founded {
   display: flex;
   justify-content: space-between;
-  width: 1280px;
+  max-width: 1280px;
   margin: auto;
   margin-top: 200px;
   margin-bottom: 200px;
+  flex-wrap: wrap;
 }
 .founded-content > p {
   margin-top: 40px;
@@ -13,10 +14,42 @@
 .founded-wrapper {
   /* background: black; */
 }
-.founded-image {
+.founded-image > img {
   /* background: url("../../assets//img/cylinder.png");
   background-size: cover;
   background-repeat: no-repeat;
   width: 600px;
   height: 900px; */
+  width: 500px;
+  height: 500px;
+}
+@media (max-width: 1306px) {
+  .founded {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+  }
+  .founded-image > img {
+    width: 500px;
+    height: 500px;
+    margin-bottom: 150px;
+  }
+}
+@media (max-width: 960px) {
+  .founded {
+    /* display: none; */
+    width: 50vw;
+    margin: auto;
+  }
+  .founded-content > p {
+    margin-top: 40px;
+    width: 50vw;
+  }
+  .founded-image > img {
+    width: 60vw;
+    height: 60vh;
+    margin-bottom: 100px;
+  }
 }

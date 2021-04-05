@@ -25,16 +25,21 @@ function Hero() {
               wordSpacing: "4px",
             }}
           >
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla
-            maiores provident labore libero. Odio soluta sint quidem dolor
-            natus! Dolor cum eveniet incidunt ab deserunt laboriosam, quisquam
-            voluptas quia quas?
+            We know the rules, we break one,we create one. We will find the
+            problem and we will create a solution. We Techno Blockswork on
+            projects that gets marked on thecommunity.
           </p>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla
-            maiores provident labore libero. Odio soluta sint quidem dolor
-            natus! Dolor cum eveniet incidunt ab deserunt laboriosam, quisquam
-            voluptas quia quas?
+          <p
+            style={{
+              marginBottom: "40px",
+              fontSize: "18px",
+              wordSpacing: "4px",
+            }}
+          >
+            Our Enterprise in Blockchain Development drives us to create custom
+            blockchain-based solutions to create applications in various
+            industries. We are in the process of evolving continuously into
+            becoming a force to reckon.
           </p>
         </div>
         <div className="hero-right">
@@ -44,6 +49,33 @@ function Hero() {
             alt="no img"
             className="moon"
           />
+        </div>
+      </div>
+      <div className="hero-mobile" style={{ marginTop: "150px" }}>
+        <div className="hero-mobile-content">
+          <h1 style={{ marginBottom: "40px" }}>
+            We connect blocks and people to form chain
+          </h1>
+          <p
+            style={{
+              marginBottom: "40px",
+              fontSize: "18px",
+              wordSpacing: "4px",
+            }}
+          >
+            We know the rules, we break one,we create one. We will find the
+            problem and we will create a solution. We Techno Blockswork on
+            projects that gets marked on thecommunity.
+          </p>
+          <p>
+            Our Enterprise in Blockchain Development drives us to create custom
+            blockchain-based solutions to create applications in various
+            industries. We are in the process of evolving continuously into
+            becoming a force to reckon.
+          </p>
+        </div>
+        <div className="mobile-cube">
+          <img src={Moon} className="my-moon" alt="no img" />
         </div>
       </div>
     </div>

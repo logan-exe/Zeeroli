@@ -1,20 +1,24 @@
 .navbar-wrapper {
   background: black;
-  /* padding: 24px; */
-  padding-top: 20px;
-  padding-bottom: 20px;
-  position: sticky;
+
+  position: fixed;
+  /* position: -webkit-sticky; */
   z-index: 100;
   top: 0;
+  width: 100vw;
+
+  padding-top: 20px;
+
+  /* width: 100%; */
 }
 
 .navbar {
   max-width: 1280px;
-  /* min-width: 360px; */
+  /* min-width: 100%; */
   margin: auto;
-  display: flex;
+  /* display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; */
   /* background: antiquewhite; */
 }
 
@@ -25,21 +29,36 @@
   /* background-color: crimson; */
 }
 
-.navbar-right > p {
+.my-link {
   font-size: 18px;
   padding: 12px;
+  z-index: 10000;
+  color: white;
 }
+.my-link:hover {
+  color: grey;
+  text-decoration: none;
+  cursor: pointer;
+}
+.navbar-right > .active {
+  border-bottom: 1px solid #fff;
+}
+
 .navbar-button {
   background: #fff;
   color: black;
-  /* padding: 12px; */
+  text-decoration: none;
+
   border-radius: 16px;
-  /* width: 120px; */
 }
 .logo {
   /* margin-top: 20px; */
+  padding-bottom: 8px;
 }
 .navbar-menu {
+  display: none;
+}
+.menu-wrapper {
   display: none;
 }
 
@@ -49,11 +68,60 @@
   }
   .navbar-menu {
     display: block;
-    margin-left: 40px;
+    margin-left: 20px;
+  }
+  .menu-wrapper {
+    display: flex;
+  }
+  .menu-list {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    z-index: 100;
+    text-align: center;
+  }
+  .menu-list > .active {
+    color: grey;
+  }
+  .menu-item {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+  }
+  .menu-item:hover {
+    color: grey;
+    text-decoration: none;
+  }
+  .menu-connect {
+    background: white;
+    color: black;
+    border-radius: 40px;
   }
   .logo {
     margin-left: 10px;
     min-width: 50px;
+  }
+  .navbar {
+    max-width: 800px;
+    margin-left: 10px;
+  }
+  .navbar-wrapper {
+    width: 100vw;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    -webkit-backface-visibility: hidden;
+  }
+}
+
+@media (max-width: 1200px) {
+  .navbar {
+    max-width: 900px;
   }
 }
 

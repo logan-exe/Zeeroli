@@ -8,7 +8,7 @@ import { useEffect } from "react";
 
 function Founded() {
   useEffect(() => {
-    console.log("hello world");
+    // console.log("hello world");
     AOS.init({ duration: 3000 });
     AOS.refresh();
   }, []);
@@ -19,11 +19,7 @@ function Founded() {
     >
       <div className="founded">
         <div className="founded-image" data-aos="fade-left">
-          <img
-            src={Cylinder}
-            alt="no img"
-            style={{ width: "400px", height: "500px" }}
-          />
+          <img src={Cylinder} alt="no img" />
         </div>
         <div className="founded-content" data-aos="fade-up">
           <img
@@ -34,16 +30,15 @@ function Founded() {
           />
           <h1 data-aos="fade-up">Founded For</h1>
           <p data-aos="fade-up">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo,
-            eum, ab voluptatibus, repellat soluta facere hic earum vel dolores
-            delectus tenetur nisi excepturi at? Ipsa, tempora! Quod provident
-            similique enim.
+            “We Believe more Local is more global”. We want to create a Start-Up
+            that people and industries can trust working with. We are a team of
+            young and vibrant blockchain enthusiats, we have a common goal, we
+            need to pass the ball to score the goal. I as We state, we have the
+            team to pass the ball.
           </p>
           <p data-aos="fade-up">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo,
-            eum, ab voluptatibus, repellat soluta facere hic earum vel dolores
-            delectus tenetur nisi excepturi at? Ipsa, tempora! Quod provident
-            similique enim.
+            The process goes hand in hand, while one works and the other
+            respects.
           </p>
         </div>
       </div>
