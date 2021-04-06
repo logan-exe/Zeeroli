@@ -20,8 +20,9 @@ function SecretSauce() {
     <div className="secret-wrapper">
       <center>
         <h1 className="secret-header" data-aos="fade-up">
-          Our Secret Sauce
+          We Make
         </h1>
+        <h1 className="secret-header-bottom">Our Secret Sauce</h1>
       </center>
 
       <VerticalTimeline>

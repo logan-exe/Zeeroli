@@ -106,6 +106,8 @@ function Navbar() {
           <a
             className="navbar-button my-link"
             href="https://us1.list-manage.com/contact-form?u=4e5014b11c913a57f2530809b&form_id=d4c925de56dacaf009896544684267f8"
+            target="_blank"
+            rel="noreferrer"
           >
             {" "}
             Let's Connect

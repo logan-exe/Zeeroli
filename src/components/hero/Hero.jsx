@@ -25,9 +25,9 @@ function Hero() {
               wordSpacing: "4px",
             }}
           >
-            We know the rules, we break one,we create one. We will find the
-            problem and we will create a solution. We Techno Blockswork on
-            projects that gets marked on thecommunity.
+            We know the rules, we break one, we create one. We will find the
+            problem and we will create a solution. We Techno Blocks work on
+            projects that gets marked on the community.
           </p>
           <p
             style={{
@@ -64,10 +64,16 @@ function Hero() {
             }}
           >
             We know the rules, we break one,we create one. We will find the
-            problem and we will create a solution. We Techno Blockswork on
-            projects that gets marked on thecommunity.
+            problem and we will create a solution. We Techno Blocks work on
+            projects that gets marked on the community.
           </p>
-          <p>
+          <p
+            style={{
+              // marginBottom: "40px",
+              fontSize: "18px",
+              wordSpacing: "4px",
+            }}
+          >
             Our Enterprise in Blockchain Development drives us to create custom
             blockchain-based solutions to create applications in various
             industries. We are in the process of evolving continuously into

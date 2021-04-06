@@ -33,7 +33,7 @@ function Founded() {
             “We Believe more Local is more global”. We want to create a Start-Up
             that people and industries can trust working with. We are a team of
             young and vibrant blockchain enthusiats, we have a common goal, we
-            need to pass the ball to score the goal. I as We state, we have the
+            need to pass the ball to score the goal. As We state, we have the
             team to pass the ball.
           </p>
           <p data-aos="fade-up">

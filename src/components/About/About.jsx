@@ -24,13 +24,13 @@ function About() {
           <h1 data-aos="fade-up">About Us</h1>
           <p data-aos="fade-up">
             We create the world of Blockchains. We bring your ideas to life, by
-            creating the platforms you desire, from mobile app to desktop
+            creating the platforms you desire, from mobile apps to desktop
             applications, from services to solutions. We value your time, while
             you value our work.
           </p>
           <p data-aos="fade-up">
             {
-              "We provide cutting edge solutions using our in-depth knowledge and rock-solid experience to help our clients to launch theirblockchain-based business successfully."
+              "We provide cutting edge solutions using our in-depth knowledge and rock-solid experience to help our clients to launch their blockchain-based business successfully."
             }
           </p>
         </div>

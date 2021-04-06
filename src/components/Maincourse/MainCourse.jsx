@@ -9,6 +9,12 @@ import "./MainCourse.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import main1 from "../../assets/img/main1.png";
+import main2 from "../../assets/img/main2.png";
+import main3 from "../../assets/img/main3.png";
+import main4 from "../../assets/img/main4.png";
+import main5 from "../../assets/img/main5.png";
+import main6 from "../../assets/img/main6.png";
 
 function MainCourse() {
   const [ind, setind] = useState(0);
@@ -29,7 +35,7 @@ function MainCourse() {
     >
       <center className="maincourse-header">
         {" "}
-        <h1 style={{ paddingTop: "100px" }} data-aos="fade-up">
+        <h1 style={{ marginTop: "300px" }} data-aos="fade-up">
           We Serve
         </h1>
         <h1
@@ -38,15 +44,58 @@ function MainCourse() {
           data-aos="fade-up"
         >
           {" "}
-          our Main Course
+          Our Main Course
         </h1>
       </center>
       <center className="temproary" data-aos="fade-up">
-        <h1>MainCourse is under construction for mobile/tablet view</h1>
-        <p data-aos="fade-up">
-          Kindly use desktop view to explore this section (this is temproary
-          maintanence)
-        </p>
+        {" "}
+        <h1 style={{ marginTop: "100px" }} data-aos="fade-up">
+          We Serve
+        </h1>
+        <h1
+          style={{ paddingBottom: "100px" }}
+          className="new-head"
+          data-aos="fade-up"
+        >
+          {" "}
+          Our Main Course
+        </h1>
+        <img
+          data-aos="fade-up"
+          src={main1}
+          alt="no"
+          style={{ width: "80vw", height: "70vh" }}
+        ></img>
+        <img
+          data-aos="fade-up"
+          src={main2}
+          alt="no"
+          style={{ width: "80vw", height: "70vh", marginTop: "100px" }}
+        />
+        <img
+          data-aos="fade-up"
+          src={main3}
+          alt="no"
+          style={{ width: "80vw", height: "70vh", marginTop: "100px" }}
+        />
+        <img
+          data-aos="fade-up"
+          src={main4}
+          alt="no"
+          style={{ width: "80vw", height: "70vh", marginTop: "100px" }}
+        />
+        <img
+          data-aos="fade-up"
+          src={main5}
+          alt="no"
+          style={{ width: "80vw", height: "70vh", marginTop: "100px" }}
+        />
+        <img
+          data-aos="fade-up"
+          src={main6}
+          alt="no"
+          style={{ width: "80vw", height: "70vh", marginTop: "100px" }}
+        />
       </center>
       <div className="maincourse-wrapper">
         <Carousel activeind={ind} onSelect={handleSelect} data-aos="fade-up">

@@ -14,7 +14,7 @@ export default function Footer() {
       {/* The content of your page would go here. */}
       <footer className="footer-distributed">
         <div className="footer-left">
-          <div className="logo">
+          <div className="logo" style={{ marginBottom: "18px" }}>
             <svg
               width="140"
               height="32"
@@ -52,7 +52,18 @@ export default function Footer() {
               </g>
             </svg>
           </div>
-          <h3>{/* About<span>Eduonix</span> */}</h3>
+          <a
+            className="footer-contact"
+            // style={{ paddingTop: "20px" }}
+            href="https://us1.list-manage.com/contact-form?u=4e5014b11c913a57f2530809b&form_id=d4c925de56dacaf009896544684267f8"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {" "}
+            Lets connect
+          </a>
+
+          {/* <p>Contact us</p> */}
           <p className="footer-links">
             {/* <p
               style={{
@@ -165,7 +176,11 @@ export default function Footer() {
                 </svg>
               </i>
             </a>
-            <a href="/">
+            <a
+              href="https://www.instagram.com/zeeroli/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <i className="fa fa-instagram">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
